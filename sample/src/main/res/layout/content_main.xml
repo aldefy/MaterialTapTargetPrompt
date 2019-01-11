@@ -22,9 +22,15 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:context="uk.co.samuelwall.materialtaptargetprompt.sample.MainActivity"
         tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/placeholder_search"
+        android:layout_centerVertical="true"
+        style="@style/Widget.TextView.Seeker.SearchBar"/>
     <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:visibility="gone"
             android:layout_alignParentTop="true">
         <LinearLayout
                 android:orientation="vertical"

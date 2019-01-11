@@ -417,7 +417,7 @@ public class MaterialTapTargetPrompt
         cancelShowForTimer();
         cleanUpAnimation();
         mAnimationCurrent = ValueAnimator.ofFloat(1f, 0f);
-        mAnimationCurrent.setDuration(225);
+        mAnimationCurrent.setDuration(1200);
         mAnimationCurrent.setInterpolator(mView.mPromptOptions.getAnimationInterpolator());
         mAnimationCurrent.addUpdateListener(new ValueAnimator.AnimatorUpdateListener()
         {
@@ -455,7 +455,7 @@ public class MaterialTapTargetPrompt
         cancelShowForTimer();
         cleanUpAnimation();
         mAnimationCurrent = ValueAnimator.ofFloat(1f, 0f);
-        mAnimationCurrent.setDuration(225);
+        mAnimationCurrent.setDuration(1200);
         mAnimationCurrent.setInterpolator(mView.mPromptOptions.getAnimationInterpolator());
         mAnimationCurrent.addUpdateListener(new ValueAnimator.AnimatorUpdateListener()
         {
@@ -532,7 +532,7 @@ public class MaterialTapTargetPrompt
         cleanUpAnimation();
         mAnimationCurrent = ValueAnimator.ofFloat(0f, 1f);
         mAnimationCurrent.setInterpolator(mView.mPromptOptions.getAnimationInterpolator());
-        mAnimationCurrent.setDuration(225);
+        mAnimationCurrent.setDuration(1200);
         mAnimationCurrent.addUpdateListener(new ValueAnimator.AnimatorUpdateListener()
         {
             @Override
@@ -571,8 +571,8 @@ public class MaterialTapTargetPrompt
         cleanUpAnimation();
         mAnimationFocalBreathing = ValueAnimator.ofFloat(1, 1.1f, 1);
         mAnimationFocalBreathing.setInterpolator(mView.mPromptOptions.getAnimationInterpolator());
-        mAnimationFocalBreathing.setDuration(1000);
-        mAnimationFocalBreathing.setStartDelay(225);
+        mAnimationFocalBreathing.setDuration(2500);
+        mAnimationFocalBreathing.setStartDelay(1200);
         mAnimationFocalBreathing.setRepeatCount(ValueAnimator.INFINITE);
         mAnimationFocalBreathing.addUpdateListener(new ValueAnimator.AnimatorUpdateListener()
         {
@@ -605,7 +605,7 @@ public class MaterialTapTargetPrompt
 
         mAnimationFocalRipple = ValueAnimator.ofFloat(1.1f, 1.6f);
         mAnimationFocalRipple.setInterpolator(mView.mPromptOptions.getAnimationInterpolator());
-        mAnimationFocalRipple.setDuration(500);
+        mAnimationFocalRipple.setDuration(2500);
         mAnimationFocalRipple.addUpdateListener(new ValueAnimator.AnimatorUpdateListener()
         {
             @Override

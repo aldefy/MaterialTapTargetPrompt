@@ -75,4 +75,17 @@
         <item name="mttp_iconColourFilter">@color/green_200</item>
     </style>
 
+    <style name="Widget.TextView.Seeker.SearchBar" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/seeker_bg_search_pill</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
 </resources>
